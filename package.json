@@ -1,0 +1,29 @@
+{
+	"name": "stack-finance",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest src && exit 1",
+		"dev": "nodemon --exec babel-node ./src/index.js 22 50"
+	},
+	"author": "Devansh Sharma",
+	"license": "ISC",
+	"dependencies": {
+		"@babel/cli": "^7.13.16",
+		"@babel/core": "^7.14.0",
+		"@babel/node": "^7.13.13",
+		"@babel/preset-env": "^7.14.1",
+		"dotenv": "^9.0.2",
+		"express": "^4.17.1",
+		"is-valid-email": "^0.0.5",
+		"mongoose": "^5.12.8",
+		"nodemailer": "^6.6.0",
+		"nodemon": "^2.0.7",
+		"rimraf": "^3.0.2"
+	},
+	"devDependencies": {
+		"babel-jest": "^26.6.3",
+		"jest": "^26.6.3"
+	}
+}
